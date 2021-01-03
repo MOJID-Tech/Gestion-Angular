@@ -10,13 +10,19 @@ import { FormsModule , ReactiveFormsModule} from '@angular/forms';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { AuthenticationService } from './login/auth.service';
 import { RegisterService } from './inscription/register.service';
+import { ServicesprestataireComponent } from './servicesprestataire/servicesprestataire.component';
+import { AddserviceComponent } from './addservice/addservice.component';
+import { SlidemenuComponent } from './slidemenu/slidemenu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     MenuComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    ServicesprestataireComponent,
+    AddserviceComponent,
+    SlidemenuComponent
   ],
   imports: [
     BrowserModule,
